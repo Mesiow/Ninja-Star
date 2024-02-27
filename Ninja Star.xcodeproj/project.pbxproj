@@ -7,24 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C06ADC9E2B8EA1AB003B2230 /* ninja_good-sheet.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = C06ADC9D2B8EA1AB003B2230 /* ninja_good-sheet.png */; };
 		C0C793C62B7ED2AD00943ABD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0C793C52B7ED2AD00943ABD /* main.cpp */; };
+		C0C793CE2B7ED45100943ABD /* libraylib.4.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C793CD2B7ED45100943ABD /* libraylib.4.2.0.dylib */; };
+		C0C793D72B7EDD6600943ABD /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0C793D52B7EDD6600943ABD /* Player.cpp */; };
+		C0C793DA2B80470B00943ABD /* Star.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0C793D82B80470B00943ABD /* Star.cpp */; };
+		C0C793DD2B81995500943ABD /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0C793DB2B81995500943ABD /* Game.cpp */; };
+		C0C793E22B82E21400943ABD /* ninja_good.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = C0C793E02B82DD3700943ABD /* ninja_good.png */; };
+		C0C793E32B82E21B00943ABD /* ninja_bad.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = C0C793E12B82DD3700943ABD /* ninja_bad.png */; };
+		C0C793EA2B84139200943ABD /* Enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0C793E82B84139200943ABD /* Enemy.cpp */; };
+		C0C793EC2B8419DB00943ABD /* shuriken.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = C0C793EB2B8419DB00943ABD /* shuriken.png */; };
+		C0C793F12B85571200943ABD /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0C793F02B85571200943ABD /* Sprite.cpp */; };
+		C0C793F42B85610100943ABD /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0C793F22B85610100943ABD /* Map.cpp */; };
+		C0C793FC2B86B03A00943ABD /* cobblestone.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = C0C793FB2B86B03A00943ABD /* cobblestone.png */; };
+		C0C794042B86C33600943ABD /* wood.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = C0C794032B86C33600943ABD /* wood.png */; };
+		C0C794072B8809ED00943ABD /* Collision.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0C794052B8809ED00943ABD /* Collision.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		C0C793C02B7ED2AD00943ABD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
 			files = (
+				C06ADC9E2B8EA1AB003B2230 /* ninja_good-sheet.png in CopyFiles */,
+				C0C794042B86C33600943ABD /* wood.png in CopyFiles */,
+				C0C793FC2B86B03A00943ABD /* cobblestone.png in CopyFiles */,
+				C0C793EC2B8419DB00943ABD /* shuriken.png in CopyFiles */,
+				C0C793E32B82E21B00943ABD /* ninja_bad.png in CopyFiles */,
+				C0C793E22B82E21400943ABD /* ninja_good.png in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C06ADC9D2B8EA1AB003B2230 /* ninja_good-sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ninja_good-sheet.png"; sourceTree = "<group>"; };
 		C0C793C22B7ED2AD00943ABD /* Ninja Star */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ninja Star"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C793C52B7ED2AD00943ABD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C0C793CD2B7ED45100943ABD /* libraylib.4.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libraylib.4.2.0.dylib; path = Externals/raylib/4.5.0/lib/libraylib.4.2.0.dylib; sourceTree = "<group>"; };
+		C0C793CF2B7ED5D000943ABD /* Ninja Star.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Ninja Star.entitlements"; sourceTree = "<group>"; };
+		C0C793D52B7EDD6600943ABD /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		C0C793D62B7EDD6600943ABD /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		C0C793D82B80470B00943ABD /* Star.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Star.cpp; sourceTree = "<group>"; };
+		C0C793D92B80470B00943ABD /* Star.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Star.hpp; sourceTree = "<group>"; };
+		C0C793DB2B81995500943ABD /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		C0C793DC2B81995500943ABD /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		C0C793E02B82DD3700943ABD /* ninja_good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninja_good.png; sourceTree = "<group>"; };
+		C0C793E12B82DD3700943ABD /* ninja_bad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninja_bad.png; sourceTree = "<group>"; };
+		C0C793E72B84133F00943ABD /* raylib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = raylib; sourceTree = "<group>"; };
+		C0C793E82B84139200943ABD /* Enemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Enemy.cpp; sourceTree = "<group>"; };
+		C0C793E92B84139200943ABD /* Enemy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Enemy.hpp; sourceTree = "<group>"; };
+		C0C793EB2B8419DB00943ABD /* shuriken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shuriken.png; sourceTree = "<group>"; };
+		C0C793EE2B8555CE00943ABD /* Sprite.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sprite.hpp; sourceTree = "<group>"; };
+		C0C793F02B85571200943ABD /* Sprite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sprite.cpp; sourceTree = "<group>"; };
+		C0C793F22B85610100943ABD /* Map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		C0C793F32B85610100943ABD /* Map.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Map.hpp; sourceTree = "<group>"; };
+		C0C793FB2B86B03A00943ABD /* cobblestone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cobblestone.png; sourceTree = "<group>"; };
+		C0C794032B86C33600943ABD /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		C0C794052B8809ED00943ABD /* Collision.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Collision.cpp; sourceTree = "<group>"; };
+		C0C794062B8809ED00943ABD /* Collision.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Collision.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0C793CE2B7ED45100943ABD /* libraylib.4.2.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +87,7 @@
 			children = (
 				C0C793C42B7ED2AD00943ABD /* Ninja Star */,
 				C0C793C32B7ED2AD00943ABD /* Products */,
+				C0C793CC2B7ED45100943ABD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +102,63 @@
 		C0C793C42B7ED2AD00943ABD /* Ninja Star */ = {
 			isa = PBXGroup;
 			children = (
+				C0C793DF2B82DD2100943ABD /* res */,
+				C0C793D12B7ED8C800943ABD /* include */,
+				C0C793D02B7ED8B200943ABD /* src */,
+				C0C793CF2B7ED5D000943ABD /* Ninja Star.entitlements */,
 				C0C793C52B7ED2AD00943ABD /* main.cpp */,
 			);
 			path = "Ninja Star";
+			sourceTree = "<group>";
+		};
+		C0C793CC2B7ED45100943ABD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0C793CD2B7ED45100943ABD /* libraylib.4.2.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0C793D02B7ED8B200943ABD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C0C794052B8809ED00943ABD /* Collision.cpp */,
+				C0C793F22B85610100943ABD /* Map.cpp */,
+				C0C793DB2B81995500943ABD /* Game.cpp */,
+				C0C793D52B7EDD6600943ABD /* Player.cpp */,
+				C0C793D82B80470B00943ABD /* Star.cpp */,
+				C0C793E82B84139200943ABD /* Enemy.cpp */,
+				C0C793F02B85571200943ABD /* Sprite.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C0C793D12B7ED8C800943ABD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				C0C793E72B84133F00943ABD /* raylib */,
+				C0C793DC2B81995500943ABD /* Game.hpp */,
+				C0C793D62B7EDD6600943ABD /* Player.hpp */,
+				C0C793D92B80470B00943ABD /* Star.hpp */,
+				C0C793E92B84139200943ABD /* Enemy.hpp */,
+				C0C793EE2B8555CE00943ABD /* Sprite.hpp */,
+				C0C793F32B85610100943ABD /* Map.hpp */,
+				C0C794062B8809ED00943ABD /* Collision.hpp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		C0C793DF2B82DD2100943ABD /* res */ = {
+			isa = PBXGroup;
+			children = (
+				C06ADC9D2B8EA1AB003B2230 /* ninja_good-sheet.png */,
+				C0C794032B86C33600943ABD /* wood.png */,
+				C0C793FB2B86B03A00943ABD /* cobblestone.png */,
+				C0C793E12B82DD3700943ABD /* ninja_bad.png */,
+				C0C793E02B82DD3700943ABD /* ninja_good.png */,
+				C0C793EB2B8419DB00943ABD /* shuriken.png */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +218,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0C793DA2B80470B00943ABD /* Star.cpp in Sources */,
 				C0C793C62B7ED2AD00943ABD /* main.cpp in Sources */,
+				C0C794072B8809ED00943ABD /* Collision.cpp in Sources */,
+				C0C793F12B85571200943ABD /* Sprite.cpp in Sources */,
+				C0C793EA2B84139200943ABD /* Enemy.cpp in Sources */,
+				C0C793D72B7EDD6600943ABD /* Player.cpp in Sources */,
+				C0C793F42B85610100943ABD /* Map.cpp in Sources */,
+				C0C793DD2B81995500943ABD /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +344,13 @@
 		C0C793CA2B7ED2AD00943ABD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Ninja Star/Ninja Star.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 822D8Y7G66;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/Externals/raylib/4.5.0/include";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Externals/raylib/4.5.0/lib";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -248,9 +358,13 @@
 		C0C793CB2B7ED2AD00943ABD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Ninja Star/Ninja Star.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 822D8Y7G66;
-				ENABLE_HARDENED_RUNTIME = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = NO;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/Externals/raylib/4.5.0/include";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/Externals/raylib/4.5.0/lib";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
